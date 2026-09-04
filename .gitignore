@@ -1,1 +1,24 @@
-# Dependencies/node_modules# Build output/.next# Environment variables.env.local# OS files.DS_StoreThumbs.db# IDE.vscode.idea# Logs*.lognpm-debug.log*# Misc*.swp*.swo
+# Dependencies
+node_modules
+
+# Build output
+.next
+
+# Environment variables
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode
+.idea
+
+# Logs
+*.log
+npm-debug.log*
+
+# Misc
+*.swp
+*.swo

@@ -32,6 +32,8 @@ export default function Footer() {
               { label: 'Portfolio', href: '/portfolio/' },
               { label: 'Blog', href: '/blog/' },
               { label: 'Pricing', href: '/pricing/' },
+              { label: '24-Hour Preview Contract', href: '/contract/preview/' },
+              { label: 'Direct Contract', href: '/contract/direct/' },
             ].map(s => (
               <li key={s.label}>
                 <Link href={s.href} className="text-text-muted text-sm hover:text-text transition-colors">{s.label}</Link>

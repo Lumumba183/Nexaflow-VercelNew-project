@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { services, pricing, additionalProducts, featuredProjects, testimonials, GOLD, GOLD_BRIGHT } from '@/data';
 import { blogPosts } from '@/data/blog';
-import { Check, X, ArrowRight, Star, Zap, Shield, Clock, ChevronRight } from 'lucide-react';
+import { Check, X, ArrowRight, Star, Zap, Shield, Clock, ChevronRight, Eye } from 'lucide-react';
 
 function ScrollReveal({ children, delay = 0 }: { children: React.ReactNode; delay?: number }) {
   const [visible, setVisible] = useState(false);
@@ -146,7 +146,7 @@ export default function Home() {
                       </li>
                     ))}
                   </ul>
-                  <Link href="/contract/direct/" className={`mt-6 w-full py-3 rounded-xl font-bold text-center transition-colors ${
+                  <Link href="#get-started" className={`mt-6 w-full py-3 rounded-xl font-bold text-center transition-colors ${
                     p.popular ? 'bg-gradient-gold text-primary' : 'border border-gold text-gold hover:bg-gold/10'
                   }`}>
                     Get Started
@@ -155,6 +155,46 @@ export default function Home() {
               </ScrollReveal>
             ))}
           </div>
+
+          {/* Get Started — Choose Your Contract Model */}
+          <ScrollReveal>
+            <div id="get-started" className="mt-20 scroll-mt-24">
+              <div className="text-center mb-10">
+                <h3 className="text-2xl sm:text-3xl font-bold mb-3 font-display">Get Started — Choose Your Contract Model</h3>
+                <p className="text-text-muted max-w-xl mx-auto">Two safe ways to begin your project. Pick the one that fits how you like to work.</p>
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+                <Link href="/contract/preview/" className="bg-card border border-accent/40 rounded-2xl p-8 card-hover block group">
+                  <div className="w-12 h-12 bg-accent/10 rounded-xl flex items-center justify-center mb-5">
+                    <Eye size={24} className="text-accent" />
+                  </div>
+                  <h4 className="text-xl font-bold mb-2">24-Hour Preview</h4>
+                  <p className="text-accent text-sm font-bold mb-3">See It Before You Pay</p>
+                  <p className="text-text-muted text-sm mb-5">We build your full website first and hand you a live URL within 24 hours. You review everything, then pay. Strict qualification applies.</p>
+                  <ul className="space-y-2 text-sm mb-6">
+                    <li className="flex items-start gap-2"><Check size={16} className="text-success mt-0.5 shrink-0" /><span>Pay only after you see your live website</span></li>
+                    <li className="flex items-start gap-2"><Check size={16} className="text-success mt-0.5 shrink-0" /><span>100% payment within 24h of URL delivery</span></li>
+                    <li className="flex items-start gap-2"><Check size={16} className="text-success mt-0.5 shrink-0" /><span>Trust-score verification required</span></li>
+                  </ul>
+                  <span className="inline-flex items-center gap-2 text-accent font-bold group-hover:gap-3 transition-all">Apply for Preview <ArrowRight size={16} /></span>
+                </Link>
+                <Link href="/contract/direct/" className="bg-card border border-gold/40 rounded-2xl p-8 card-hover block group">
+                  <div className="w-12 h-12 bg-gold/10 rounded-xl flex items-center justify-center mb-5">
+                    <Shield size={24} className="text-gold" />
+                  </div>
+                  <h4 className="text-xl font-bold mb-2">Direct Contract</h4>
+                  <p className="text-gold text-sm font-bold mb-3">Upwork-Protected Agreement</p>
+                  <p className="text-text-muted text-sm mb-5">Sign a project commitment agreement with staged payments. Ideal for businesses that prefer a formal contract from day one.</p>
+                  <ul className="space-y-2 text-sm mb-6">
+                    <li className="flex items-start gap-2"><Check size={16} className="text-success mt-0.5 shrink-0" /><span>75% deposit after live URL delivery</span></li>
+                    <li className="flex items-start gap-2"><Check size={16} className="text-success mt-0.5 shrink-0" /><span>25% before domain mapping & handover</span></li>
+                    <li className="flex items-start gap-2"><Check size={16} className="text-success mt-0.5 shrink-0" /><span>Full contractual protection via Upwork</span></li>
+                  </ul>
+                  <span className="inline-flex items-center gap-2 text-gold font-bold group-hover:gap-3 transition-all">Start Direct Contract <ArrowRight size={16} /></span>
+                </Link>
+              </div>
+            </div>
+          </ScrollReveal>
 
           {/* Additional Products */}
           <ScrollReveal>
