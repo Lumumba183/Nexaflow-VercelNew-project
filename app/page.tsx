@@ -2,7 +2,8 @@
 import { useState, useEffect, useCallback } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { services, pricing, additionalProducts, featuredProjects, testimonials, blogPosts, GOLD, GOLD_BRIGHT } from '@/data';
+import { services, pricing, additionalProducts, featuredProjects, testimonials, GOLD, GOLD_BRIGHT } from '@/data';
+import { blogPosts } from '@/data/blog';
 import { Check, X, ArrowRight, Star, Zap, Shield, Clock, ChevronRight } from 'lucide-react';
 
 function ScrollReveal({ children, delay = 0 }: { children: React.ReactNode; delay?: number }) {
