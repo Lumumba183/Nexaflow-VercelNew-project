@@ -25,8 +25,7 @@ export async function verifyToken(token: string) {
 export async function verifyPassword(password: string): Promise<boolean> {
   const hash = process.env.ADMIN_PASSWORD_HASH;
   if (!hash) {
-    // Fallback for development - plain text comparison (NOT for production)
-    return password === 'Pabs2090*#';
+    throw new Error('ADMIN_PASSWORD_HASH is not configured');
   }
   return bcrypt.compare(password, hash);
 }
