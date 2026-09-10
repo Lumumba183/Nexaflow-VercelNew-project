@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'NexaFlow Digital — Professional Website Development & AI Automation in Kenya',
     description: 'Professional website development and AI automation for Kenyan businesses. Websites from KSH 18,000. AI agents, WhatsApp automation, e-shop design. Based in Nairobi.',
-    images: ['https://images.unsplash.com/photo-1605496036006-fa36378ca4ab?w=1200&h=630&fit=crop&auto=format&q=80'],
+    images: ['/og-image.jpg'],
     url: 'https://nexaflow-digital.com',
     type: 'website',
     locale: 'en_KE',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'NexaFlow Digital — Professional Website Development & AI Automation',
     description: 'Professional website development and AI automation for Kenyan businesses.',
-    images: ['https://images.unsplash.com/photo-1605496036006-fa36378ca4ab?w=1200&h=630&fit=crop&auto=format&q=80'],
+    images: ['/og-image.jpg'],
   },
   alternates: {
     canonical: 'https://nexaflow-digital.com/',
@@ -45,6 +45,28 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             src="https://www.facebook.com/tr?id=1089974953979325&ev=PageView&noscript=1" />
         </noscript>
       </head>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'Organization',
+            name: 'NexaFlow Digital',
+            url: 'https://www.nexaflow-digital.com',
+            logo: 'https://www.nexaflow-digital.com/og-image.jpg',
+            description: 'Professional website development and AI automation services in Kenya.',
+            telephone: '+254106216699',
+            email: 'smartsolutions870@gmail.com',
+            address: { '@type': 'PostalAddress', addressLocality: 'Nairobi', addressCountry: 'KE' },
+            sameAs: ['https://wedialai.com'],
+          }),
+        }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'WebSite',
+            name: 'NexaFlow Digital',
+            url: 'https://www.nexaflow-digital.com',
+          }),
+        }} />
       <body className="bg-primary text-text font-sans antialiased">
         <Layout>{children}</Layout>
       </body>
