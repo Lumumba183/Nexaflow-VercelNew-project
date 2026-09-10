@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Cookie Policy | NexaFlow Digital',
   description: 'NexaFlow Digital cookie policy. How we use cookies on our website.',
-  alternates: { canonical: 'https://nexaflow-digital.com/cookies/' },
+  alternates: { canonical: 'https://www.nexaflow-digital.com/cookies' }, openGraph: { url: 'https://www.nexaflow-digital.com/cookies' },
 };
 
 export default function CookiesPage() {

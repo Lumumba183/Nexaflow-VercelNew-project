@@ -6,7 +6,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Pricing | NexaFlow Digital — Transparent Website Pricing Kenya',
   description: 'Clear, upfront pricing for website development in Kenya. Starter KSH 18,000, Business KSH 35,000, Premium KSH 65,000, Enterprise KSH 120,000. No hidden fees.',
-  alternates: { canonical: 'https://nexaflow-digital.com/pricing/' },
+  alternates: { canonical: 'https://www.nexaflow-digital.com/pricing' }, openGraph: { url: 'https://www.nexaflow-digital.com/pricing' },
 };
 
 export default function PricingPage() {

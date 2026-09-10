@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Privacy Policy | NexaFlow Digital',
   description: 'NexaFlow Digital privacy policy. How we collect, use, and protect your personal information.',
-  alternates: { canonical: 'https://nexaflow-digital.com/privacy/' },
+  alternates: { canonical: 'https://www.nexaflow-digital.com/privacy' }, openGraph: { url: 'https://www.nexaflow-digital.com/privacy' },
 };
 
 export default function PrivacyPage() {

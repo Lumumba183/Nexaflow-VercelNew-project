@@ -9,12 +9,12 @@ const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfa
 export const metadata: Metadata = {
   title: 'NexaFlow Digital — Professional Website Development & AI Automation in Kenya',
   description: 'Professional website development and AI automation services in Kenya. Websites from KSH 18,000, AI calling agents, WhatsApp automation, e-shop design, and white-label solutions. Nairobi-based.',
-  metadataBase: new URL('https://nexaflow-digital.com'),
+  metadataBase: new URL('https://www.nexaflow-digital.com'),
   openGraph: {
     title: 'NexaFlow Digital — Professional Website Development & AI Automation in Kenya',
     description: 'Professional website development and AI automation for Kenyan businesses. Websites from KSH 18,000. AI agents, WhatsApp automation, e-shop design. Based in Nairobi.',
     images: ['/og-image.jpg'],
-    url: 'https://nexaflow-digital.com',
+    url: 'https://www.nexaflow-digital.com/',
     type: 'website',
     locale: 'en_KE',
   },
@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: ['/og-image.jpg'],
   },
   alternates: {
-    canonical: 'https://nexaflow-digital.com/',
-    languages: { 'en-ke': 'https://nexaflow-digital.com', 'x-default': 'https://nexaflow-digital.com' },
+    canonical: 'https://www.nexaflow-digital.com/',
+    languages: { 'en-ke': 'https://www.nexaflow-digital.com/', 'x-default': 'https://www.nexaflow-digital.com/' },
   },
   robots: { index: true, follow: true },
   authors: [{ name: 'NexaFlow Digital' }],

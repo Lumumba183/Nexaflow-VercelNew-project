@@ -5,7 +5,7 @@ import { ArrowRight, ExternalLink } from 'lucide-react';
 export const metadata: Metadata = {
   title: 'Portfolio | NexaFlow Digital — Website Development Projects Kenya',
   description: 'View our portfolio of 30+ websites, e-commerce stores, and AI automation projects built for Kenyan and international businesses.',
-  alternates: { canonical: 'https://nexaflow-digital.com/portfolio/' },
+  alternates: { canonical: 'https://www.nexaflow-digital.com/portfolio' }, openGraph: { url: 'https://www.nexaflow-digital.com/portfolio' },
 };
 
 export default function PortfolioPage() {

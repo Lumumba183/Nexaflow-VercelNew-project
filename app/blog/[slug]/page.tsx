@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const post = blogPosts.find((p) => p.slug === slug);
   if (!post) return { title: 'Not Found' };
-  const url = `${BASE}/blog/${slug}/`;
+  const url = `${BASE}/blog/${slug}`;
   const published = isoDate(post.date);
   return {
     title: `${post.title} | NexaFlow Digital Blog`,
@@ -102,7 +102,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   const post = blogPosts.find((p) => p.slug === slug);
   if (!post) return notFound();
 
-  const url = `${BASE}/blog/${slug}/`;
+  const url = `${BASE}/blog/${slug}`;
   const published = isoDate(post.date);
 
   const articleLd = {

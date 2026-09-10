@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Terms of Service | NexaFlow Digital',
   description: 'NexaFlow Digital terms of service. Conditions for using our website development and AI automation services.',
-  alternates: { canonical: 'https://nexaflow-digital.com/terms/' },
+  alternates: { canonical: 'https://www.nexaflow-digital.com/terms' }, openGraph: { url: 'https://www.nexaflow-digital.com/terms' },
 };
 
 export default function TermsPage() {

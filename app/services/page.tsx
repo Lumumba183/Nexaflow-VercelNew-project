@@ -6,7 +6,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Services | NexaFlow Digital — Website Development & AI Automation Kenya',
   description: 'Explore our full range of services: website development, AI calling agents, WhatsApp automation, e-shop design, and more. Nairobi-based, serving globally.',
-  alternates: { canonical: 'https://nexaflow-digital.com/services/' },
+  alternates: { canonical: 'https://www.nexaflow-digital.com/services' }, openGraph: { url: 'https://www.nexaflow-digital.com/services' },
 };
 
 export default function ServicesPage() {
