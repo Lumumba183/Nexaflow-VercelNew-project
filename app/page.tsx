@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { services, pricing, additionalProducts, featuredProjects, testimonials, GOLD, GOLD_BRIGHT } from '@/data';
 import { blogPosts } from '@/data/blog';
+import { products } from '@/data/products';
 import { Check, X, ArrowRight, Star, Zap, Shield, Clock, ChevronRight, Eye } from 'lucide-react';
 
 function ScrollReveal({ children, delay = 0 }: { children: React.ReactNode; delay?: number }) {
@@ -213,6 +214,40 @@ export default function Home() {
               </div>
             </div>
           </ScrollReveal>
+        </div>
+      </section>
+
+      {/* Products */}
+      <section id="products" className="py-20 px-4 bg-primary-light/50">
+        <div className="max-w-6xl mx-auto">
+          <ScrollReveal>
+            <div className="text-center mb-16">
+              <h2 className="text-3xl sm:text-4xl font-bold mb-4 font-display">Our Products</h2>
+              <p className="text-text-muted max-w-xl mx-auto">Ready-to-deploy digital products — from AI agents to payment integrations — built for Kenyan businesses</p>
+            </div>
+          </ScrollReveal>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {products.map((p, i) => (
+              <ScrollReveal key={p.slug} delay={i * 0.1}>
+                <Link href={`/products/${p.slug}/`} className="block bg-card border border-border rounded-2xl overflow-hidden card-hover group h-full">
+                  <div className="relative h-40 overflow-hidden">
+                    <img src={p.img} alt={p.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                    <span className="absolute top-3 left-3 text-[10px] font-bold px-2 py-1 rounded-full bg-gradient-gold text-primary">{p.badge}</span>
+                  </div>
+                  <div className="p-5">
+                    <h3 className="font-display font-bold text-lg leading-snug group-hover:text-gold transition-colors">{p.name}</h3>
+                    <p className="text-text-muted text-sm mt-2 line-clamp-2">{p.excerpt}</p>
+                    <div className="flex items-center justify-between mt-4">
+                      <span className="text-gold font-bold text-sm">{p.price}</span>
+                      <span className="inline-flex items-center gap-1 text-sm text-text-muted group-hover:text-gold transition-colors">
+                        View Product <ArrowRight size={13} />
+                      </span>
+                    </div>
+                  </div>
+                </Link>
+              </ScrollReveal>
+            ))}
+          </div>
         </div>
       </section>
 

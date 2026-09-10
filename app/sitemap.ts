@@ -1,5 +1,6 @@
 import type { MetadataRoute } from 'next';
 import { blogPosts } from '@/data/blog';
+import { products } from '@/data/products';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = 'https://www.nexaflow-digital.com';
@@ -7,6 +8,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const pages: { path: string; priority: number; freq: MetadataRoute.Sitemap[number]['changeFrequency'] }[] = [
     { path: '/', priority: 1.0, freq: 'weekly' },
     { path: '/services', priority: 0.9, freq: 'monthly' },
+    { path: '/products', priority: 0.9, freq: 'monthly' },
     { path: '/pricing', priority: 0.9, freq: 'monthly' },
     { path: '/portfolio', priority: 0.9, freq: 'weekly' },
     { path: '/blog', priority: 0.9, freq: 'daily' },
@@ -24,6 +26,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: p.freq,
       priority: p.priority,
+    })),
+    ...products.map((pr) => ({
+      url: `${base}/products/${pr.slug}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
     })),
     ...blogPosts.map((post) => ({
       url: `${base}/blog/${post.slug}`,

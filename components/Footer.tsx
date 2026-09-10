@@ -29,6 +29,7 @@ export default function Footer() {
           <ul className="list-none p-0 space-y-2">
             {[
               { label: 'About Us', href: '/#about' },
+              { label: 'Our Products', href: '/products/' },
               { label: 'Portfolio', href: '/portfolio/' },
               { label: 'Blog', href: '/blog/' },
               { label: 'Pricing', href: '/pricing/' },

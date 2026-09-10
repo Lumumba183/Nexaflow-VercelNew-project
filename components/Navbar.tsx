@@ -8,6 +8,7 @@ const GOLD_BRIGHT = '#e8c547';
 
 const navLinks = [
   { label: 'Services', href: '/services/' },
+  { label: 'Products', href: '/products/' },
   { label: 'Pricing', href: '/pricing/' },
   { label: 'Portfolio', href: '/portfolio/' },
   { label: 'Blog', href: '/blog/' },
