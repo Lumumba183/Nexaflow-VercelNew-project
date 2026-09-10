@@ -89,7 +89,11 @@ function Block({ b }: { b: ProductBlock }) {
         <div>
           <BlockTitle t={b.title} />
           {b.note && <p className="text-text-muted max-w-2xl mb-8 -mt-4">{b.note}</p>}
-          <div className={`grid gap-5 ${b.items.length === 2 ? 'md:grid-cols-2' : 'md:grid-cols-3'}`}>
+          <div className={`grid gap-5 ${
+            b.items.length === 2 ? 'md:grid-cols-2'
+            : b.items.length === 4 ? 'sm:grid-cols-2'
+            : 'md:grid-cols-3'
+          }`}>
             {b.items.map((pk, i) => (
               <div
                 key={i}
@@ -114,6 +118,18 @@ function Block({ b }: { b: ProductBlock }) {
                     </li>
                   ))}
                 </ul>
+                {pk.cta && (
+                  <Link
+                    href={pk.cta.href}
+                    className={`mt-6 inline-flex items-center justify-center gap-2 py-3 px-5 rounded-xl font-bold text-sm transition-opacity hover:opacity-90 ${
+                      pk.featured
+                        ? 'bg-gradient-gold text-primary'
+                        : 'border border-gold text-gold'
+                    }`}
+                  >
+                    {pk.cta.label} <ArrowRight className="w-4 h-4" />
+                  </Link>
+                )}
               </div>
             ))}
           </div>

@@ -226,7 +226,7 @@ export default function Home() {
               <p className="text-text-muted max-w-xl mx-auto">Ready-to-deploy digital products — from AI agents to payment integrations — built for Kenyan businesses</p>
             </div>
           </ScrollReveal>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {products.map((p, i) => (
               <ScrollReveal key={p.slug} delay={i * 0.1}>
                 <Link href={`/products/${p.slug}/`} className="block bg-card border border-border rounded-2xl overflow-hidden card-hover group h-full">

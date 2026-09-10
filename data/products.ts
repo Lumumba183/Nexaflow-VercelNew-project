@@ -5,7 +5,7 @@ export type ProductBlock =
   | { kind: 'intro'; paragraphs: string[] }
   | { kind: 'features'; title: string; items: { icon: string; title: string; desc: string }[] }
   | { kind: 'steps'; title: string; items: { title: string; desc: string; time?: string }[] }
-  | { kind: 'packages'; title: string; note?: string; items: { name: string; price: string; priceNote?: string; features: string[]; featured?: boolean }[] }
+  | { kind: 'packages'; title: string; note?: string; items: { name: string; price: string; priceNote?: string; features: string[]; featured?: boolean; cta?: { label: string; href: string } }[] }
   | { kind: 'list'; title: string; items: string[] }
   | { kind: 'table'; title: string; headers: string[]; rows: string[][] }
   | { kind: 'callout'; title: string; text: string };
@@ -26,6 +26,114 @@ export interface Product {
 }
 
 export const products: Product[] = [
+  {
+    slug: 'website-development',
+    name: 'Website Development',
+    tagline: 'Professional, conversion-ready websites for ambitious businesses — view your finished website before you pay, or start fully protected with an escrow contract.',
+    badge: 'Core Service',
+    price: 'From KSh 18,000',
+    priceNote: 'Starter, Business, Premium & Enterprise packages',
+    img: '/products/website-development.jpg',
+    excerpt: 'High-performance, mobile-first websites built with modern frameworks — and two safe ways to start: see your finished website live before you pay a cent, or begin with a staged escrow-protected contract.',
+    keywords: ['website development Kenya', 'web design Nairobi', 'view website before you pay', 'escrow website contract', '24-hour website preview', 'professional web developer Kenya'],
+    blocks: [
+      {
+        kind: 'intro',
+        paragraphs: [
+          'This is the service NexaFlow Digital was built on: fast, beautiful, conversion-focused websites engineered with modern frameworks like React and Next.js. Every build is mobile-first, SEO-ready, and delivered with free SSL and a free domain for the first year.',
+          'What makes us different is how you pay. You can see your complete, finished website live on the internet before paying anything — or begin immediately under a formal escrow-protected contract with staged payments. Either way, you never pay for a promise; you pay for a website you have already seen.',
+        ],
+      },
+      {
+        kind: 'packages',
+        title: 'Two safe ways to start — pick how you pay',
+        note: 'Both options lead to the same professional build. The difference is simply how you prefer to begin and pay.',
+        items: [
+          {
+            name: '24-Hour Preview',
+            price: 'View It Before You Pay',
+            priceNote: 'See It, Love It, Then Pay',
+            featured: true,
+            features: [
+              'We build your full website first and hand you a live URL within 24 hours',
+              'You review everything — design, pages, content — before paying a cent',
+              '100% payment within 24 hours of URL delivery, only if you love it',
+              'Strict qualification and trust-score verification applies',
+            ],
+            cta: { label: 'Apply for 24-Hour Preview', href: '/contract/preview/' },
+          },
+          {
+            name: 'Direct Contract',
+            price: 'Escrow-Protected',
+            priceNote: 'Staged payments via Upwork',
+            features: [
+              'Formal project commitment agreement signed from day one',
+              '75% deposit only after your live URL is delivered',
+              '25% balance before domain mapping and final handover',
+              'Full contractual protection through Upwork escrow',
+            ],
+            cta: { label: 'Start a Direct Contract', href: '/contract/direct/' },
+          },
+        ],
+      },
+      {
+        kind: 'packages',
+        title: 'Website packages',
+        items: [
+          {
+            name: 'Starter Package',
+            price: 'KSh 18,000',
+            priceNote: 'Up to 5 pages — essential web presence',
+            features: [
+              'Contact form & image gallery',
+              'Social media integration',
+              'Responsive, mobile-first design',
+              'FREE domain (year 1) & SSL certificate',
+            ],
+          },
+          {
+            name: 'Business Package',
+            price: 'KSh 35,000',
+            priceNote: 'Up to 10 pages — growing business',
+            featured: true,
+            features: [
+              'Everything in Starter',
+              'Blog setup & professional email',
+              'Basic SEO optimization',
+              'Google Analytics & social feeds',
+            ],
+          },
+          {
+            name: 'Premium Package',
+            price: 'KSh 65,000',
+            priceNote: 'Up to 20 pages — full-scale solution',
+            features: [
+              'Everything in Business',
+              'E-commerce with M-Pesa payments',
+              'Advanced SEO package',
+              'Custom animations & admin dashboard',
+            ],
+          },
+          {
+            name: 'Enterprise Package',
+            price: 'KSh 120,000',
+            priceNote: 'Unlimited pages — corporate grade',
+            features: [
+              'Everything in Premium',
+              'Unlimited pages & custom integrations',
+              'Performance optimization',
+              'Security hardening & priority support',
+            ],
+          },
+        ],
+      },
+      {
+        kind: 'callout',
+        title: 'Why businesses choose NexaFlow',
+        text: 'Most agencies ask for a deposit before you have seen anything. We reversed the risk: with the 24-Hour Preview you inspect the finished product first, and with the Direct Contract your money sits in escrow until each milestone is delivered. Over 30 businesses — from tour companies to radio stations to charities — are already running on NexaFlow-built websites.',
+      },
+    ],
+  },
   {
     slug: 'wedialai',
     name: 'WeDial AI',
