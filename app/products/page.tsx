@@ -84,7 +84,7 @@ export default function ProductsPage() {
               Chat on WhatsApp
             </a>
             <Link
-              href="/#get-started"
+              href="/get-started/"
               className="border border-gold text-gold px-8 py-3.5 rounded-xl font-bold hover:bg-gold/10 transition-colors"
             >
               Get Started

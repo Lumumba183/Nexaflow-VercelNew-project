@@ -54,7 +54,7 @@ export default function Navbar() {
         </ul>
 
         <div className="hidden md:flex items-center gap-3">
-          <Link href="/#get-started"
+          <Link href="/get-started/"
             className="border border-gold text-gold px-5 py-2 rounded-lg font-semibold text-sm hover:bg-gold/10 transition-colors">
             Get Started
           </Link>
@@ -81,7 +81,7 @@ export default function Navbar() {
               {link.label}
             </Link>
           ))}
-          <Link href="/#get-started"
+          <Link href="/get-started/"
             className="text-gold font-medium hover:text-gold-bright transition-colors">
             Get Started
           </Link>
