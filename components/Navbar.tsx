@@ -4,9 +4,8 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Menu, X } from 'lucide-react';
 
-const GOLD_BRIGHT = '#e8c547';
-
 const navLinks = [
+  { label: 'Home', href: '/' },
   { label: 'Services', href: '/services/' },
   { label: 'Products', href: '/products/' },
   { label: 'Pricing', href: '/pricing/' },
@@ -35,8 +34,8 @@ export default function Navbar() {
       scrolled ? 'bg-[rgba(10,15,26,0.97)]' : 'bg-[rgba(10,15,26,0.85)]'
     } backdrop-blur-xl border-b border-border`}>
       <div className="max-w-[1200px] mx-auto px-4 sm:px-8 flex justify-between items-center h-[72px]">
-        <Link href="/" className="text-xl sm:text-2xl font-extrabold text-text">
-          Nexa<span style={{ color: GOLD_BRIGHT }}>Flow</span> Digital
+        <Link href="/" aria-label="NexaFlow Digital — Home" className="flex items-center">
+          <img src="/logo.png" alt="NexaFlow Digital" className="h-9 sm:h-10 w-auto rounded-md" />
         </Link>
 
         {/* Desktop Nav */}
