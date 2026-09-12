@@ -14,14 +14,14 @@ export default function CookieConsent() {
   if (!visible) return null;
 
   return (
-    <div className="fixed bottom-4 left-1/2 -translate-x-1/2 z-[9999] max-w-[560px] w-[calc(100%-2rem)] bg-[#0f172a] border border-gold rounded-xl p-4 flex items-center gap-4 flex-wrap shadow-2xl">
-      <p className="m-0 text-sm text-[#cbd5e1] flex-1 min-w-[240px] leading-relaxed">
+    <div className="fixed bottom-4 left-1/2 -translate-x-1/2 z-[9999] max-w-[560px] w-[calc(100%-2rem)] glass border border-accent/40 rounded-2xl p-4 flex items-center gap-4 flex-wrap shadow-[0_16px_48px_rgba(2,4,12,0.6)]">
+      <p className="m-0 text-sm text-text-muted flex-1 min-w-[240px] leading-relaxed">
         We use cookies to analyse traffic and improve your experience. By continuing, you agree to our{' '}
         <a href="/privacy" className="text-gold hover:underline">Privacy Policy</a>.
       </p>
       <button
         onClick={() => { localStorage.setItem('nf_consent', '1'); setVisible(false); }}
-        className="bg-gold text-primary px-5 py-2 rounded-lg font-bold text-sm hover:bg-gold-bright transition-colors"
+        className="bg-gradient-gold text-white px-5 py-2 rounded-full font-bold text-sm hover:opacity-90 transition-opacity"
       >
         Accept
       </button>

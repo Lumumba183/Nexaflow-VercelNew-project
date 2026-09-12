@@ -8,7 +8,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     <div className="min-h-screen bg-primary text-text font-sans">
       <FacebookPixel />
       <Navbar />
-      <main className="pt-[72px]">{children}</main>
+      <main className="pt-[76px]">{children}</main>
       <Footer />
       <CookieConsent />
     </div>

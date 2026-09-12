@@ -67,7 +67,7 @@ function Block({ b }: { b: ProductBlock }) {
           <ol className="space-y-5">
             {b.items.map((s, i) => (
               <li key={i} className="flex gap-5 p-5 bg-card border border-border rounded-2xl card-hover">
-                <span className="shrink-0 w-11 h-11 rounded-full bg-gradient-gold text-primary font-display font-bold flex items-center justify-center">
+                <span className="shrink-0 w-11 h-11 rounded-full bg-gradient-gold text-white font-display font-bold flex items-center justify-center">
                   {i + 1}
                 </span>
                 <div>
@@ -104,7 +104,7 @@ function Block({ b }: { b: ProductBlock }) {
                 }`}
               >
                 {pk.featured && (
-                  <span className="absolute -top-3 left-6 bg-gradient-gold text-primary text-xs font-bold px-3 py-1 rounded-full">
+                  <span className="absolute -top-3 left-6 bg-gradient-gold text-white text-xs font-bold px-3 py-1 rounded-full">
                     Most Popular
                   </span>
                 )}
@@ -123,7 +123,7 @@ function Block({ b }: { b: ProductBlock }) {
                     href={pk.cta.href}
                     className={`mt-6 inline-flex items-center justify-center gap-2 py-3 px-5 rounded-xl font-bold text-sm transition-opacity hover:opacity-90 ${
                       pk.featured
-                        ? 'bg-gradient-gold text-primary'
+                        ? 'bg-gradient-gold text-white'
                         : 'border border-gold text-gold'
                     }`}
                   >
@@ -231,7 +231,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
             {/* Hero card */}
             <div className="relative rounded-3xl overflow-hidden border border-border mb-4">
               <img src={p.img} alt={p.name} className="w-full h-auto block" />
-              <span className="absolute top-5 left-5 text-xs font-bold px-3 py-1.5 rounded-full bg-gradient-gold text-primary">
+              <span className="absolute top-5 left-5 text-xs font-bold px-3 py-1.5 rounded-full bg-gradient-gold text-white">
                 {p.badge}
               </span>
             </div>
@@ -268,7 +268,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
                 <a
                   href={`https://wa.me/254106216699?text=${encodeURIComponent(`Hi NexaFlow, I'm interested in ${p.name}.`)}`}
                   target="_blank" rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center gap-2 bg-gradient-gold text-primary font-semibold px-8 py-4 rounded-full hover:opacity-90 transition-opacity"
+                  className="inline-flex items-center justify-center gap-2 bg-gradient-gold text-white font-semibold px-8 py-4 rounded-full hover:opacity-90 transition-opacity"
                 >
                   <MessageCircle className="w-5 h-5" /> Chat on WhatsApp
                 </a>

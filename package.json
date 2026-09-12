@@ -1,12 +1,16 @@
 {
   "name": "nexaflow-vercel",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
+  "engines": {
+    "node": "24.x"
+  },
+  "packageManager": "pnpm@10.15.0",
   "dependencies": {
     "next": "15.3.6",
     "react": "^19.0.0",
