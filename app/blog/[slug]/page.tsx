@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 import { blogPosts } from '@/data/blog';
 import { notFound } from 'next/navigation';
-import { ArrowLeft, ArrowRight, Calendar, Tag } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Calendar, Tag, MessageCircle } from 'lucide-react';
 import Link from 'next/link';
 import ShareBar from '@/components/ShareBar';
 
@@ -46,6 +46,75 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       images: [post.img],
     },
   };
+}
+
+// CTA standard: every article carries 3 calls-to-action —
+// 1) a soft mid-article banner (≈45% through the content),
+// 2) a strong end-of-article card (products + WhatsApp),
+// 3) an in-text mention inside the conclusion paragraph.
+// CTAs point to the most relevant NexaFlow product for the article's topic.
+type CtaTarget = { name: string; href: string };
+
+function ctaTargetFor(slug: string, keywords: string[]): CtaTarget {
+  const hay = `${slug} ${keywords.join(' ')}`.toLowerCase();
+  if (/(whatsapp|chatbot|voice|ai[- ]agent|automation)/.test(hay)) {
+    return { name: 'WeDial AI', href: '/products/wedialai/' };
+  }
+  if (/(m-?pesa|mpesa|shopify|woocommerce|card|payment)/.test(hay)) {
+    return { name: 'Card Payment Integration', href: '/products/card-payment-integration/' };
+  }
+  if (/(outreach|cold email|lead gen)/.test(hay)) {
+    return { name: 'NexaReach', href: '/products/nexareach/' };
+  }
+  if (/(content|publish|blog)/.test(hay)) {
+    return { name: 'AutoDesk AI Publishing Agent', href: '/products/autodesk-ai-publishing-agent/' };
+  }
+  if (/(website|web design|web-design|seo|google|domain|app)/.test(hay)) {
+    return { name: 'Website Development', href: '/products/website-development/' };
+  }
+  return { name: 'Our Products', href: '/products/' };
+}
+
+function MidCta({ target }: { target: CtaTarget }) {
+  return (
+    <div className="my-8 rounded-xl border border-gold/30 bg-gradient-to-r from-gold/10 to-transparent p-5 flex flex-col sm:flex-row sm:items-center justify-between gap-4 not-prose">
+      <p className="text-sm text-text-muted">
+        <span className="font-bold text-text">Enjoying this?</span>{' '}
+        See how {target.name} does it for your business — proven, managed, live.
+      </p>
+      <Link href={target.href}
+        className="shrink-0 inline-flex items-center gap-2 bg-gradient-gold text-primary font-bold text-sm px-5 py-2.5 rounded-lg hover:opacity-90 transition-opacity">
+        Explore {target.name} <ArrowRight size={15} />
+      </Link>
+    </div>
+  );
+}
+
+function EndCta({ target, title }: { target: CtaTarget; title: string }) {
+  return (
+    <div className="mt-12 rounded-2xl border border-gold/40 bg-gradient-to-br from-gold/15 via-card to-card p-8 text-center">
+      <h2 className="text-2xl font-bold mb-3 font-display">Ready to put this into action?</h2>
+      <p className="text-text-muted max-w-xl mx-auto mb-7 text-sm leading-relaxed">
+        Everything in this article is something we build, deploy and manage for businesses like yours.
+        Explore {target.name} — or tell us your goal on WhatsApp and we will recommend the right product.
+      </p>
+      <div className="flex flex-col sm:flex-row gap-3 justify-center">
+        <Link href={target.href}
+          className="inline-flex items-center justify-center gap-2 bg-gradient-gold text-primary font-bold px-7 py-3.5 rounded-xl hover:opacity-90 transition-opacity">
+          Explore {target.name} <ArrowRight size={16} />
+        </Link>
+        <Link href="/products/"
+          className="inline-flex items-center justify-center gap-2 border border-gold text-gold font-bold px-7 py-3.5 rounded-xl hover:bg-gold/10 transition-colors">
+          All Products
+        </Link>
+        <a href={`https://wa.me/254106216699?text=${encodeURIComponent(`Hi NexaFlow, I just read "${title}" — I want to know more.`)}`}
+          target="_blank" rel="noopener noreferrer"
+          className="inline-flex items-center justify-center gap-2 border border-border px-7 py-3.5 rounded-xl font-bold text-text-muted hover:text-text hover:border-gold/60 transition-colors">
+          <MessageCircle size={16} /> WhatsApp Us
+        </a>
+      </div>
+    </div>
+  );
 }
 
 function renderContent(content: string[]): ReactNode[] {
@@ -94,6 +163,15 @@ function renderContent(content: string[]): ReactNode[] {
     }
   });
   flushList();
+  return elements;
+}
+
+function renderContentWithCtas(post: { slug: string; title: string; keywords: string[]; content: string[] }): ReactNode[] {
+  const target = ctaTargetFor(post.slug, post.keywords);
+  const elements = renderContent(post.content);
+  const midAt = Math.min(elements.length - 1, Math.max(2, Math.floor(elements.length * 0.45)));
+  elements.splice(midAt, 0, <MidCta key="mid-cta" target={target} />);
+  elements.push(<EndCta key="end-cta" target={target} title={post.title} />);
   return elements;
 }
 
@@ -169,7 +247,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             <div className="mb-8 pb-6 border-b border-border">
               <ShareBar url={url} title={post.title} />
             </div>
-            <div className="space-y-4">{renderContent(post.content)}</div>
+            <div className="space-y-4">{renderContentWithCtas(post)}</div>
             <div className="mt-10 pt-6 border-t border-border">
               <ShareBar url={url} title={post.title} />
             </div>
