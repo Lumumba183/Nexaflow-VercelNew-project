@@ -9,5 +9,16 @@
     "timestamp": "2026-09-15T10:53:45.879Z",
     "_id": "f00fa853-97bc-4b23-ae48-6a0acd51b7e3",
     "_createdAt": "2026-09-15T10:53:46.035Z"
+  },
+  {
+    "page": "/products",
+    "referrer": "https://www.google.com/",
+    "ip": "43.153.35.171",
+    "country": "US",
+    "city": "Santa%20Clara",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/126.0 Safari/537.36",
+    "timestamp": "2026-09-15T10:57:11.676Z",
+    "_id": "43f83ee4-69ab-48a6-83eb-3adc91c527f5",
+    "_createdAt": "2026-09-15T10:57:11.863Z"
   }
 ]
