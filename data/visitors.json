@@ -20,5 +20,16 @@
     "timestamp": "2026-09-15T10:57:11.676Z",
     "_id": "43f83ee4-69ab-48a6-83eb-3adc91c527f5",
     "_createdAt": "2026-09-15T10:57:11.863Z"
+  },
+  {
+    "page": "/services",
+    "referrer": "direct",
+    "ip": "57.141.18.96",
+    "country": "US",
+    "city": "Dallas",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "timestamp": "2026-09-15T11:31:44.527Z",
+    "_id": "f8e2fca3-0f1d-4ae3-96e5-aac349f49687",
+    "_createdAt": "2026-09-15T11:31:44.674Z"
   }
 ]
