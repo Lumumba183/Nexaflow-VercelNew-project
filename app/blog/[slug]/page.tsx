@@ -233,9 +233,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           <ArrowLeft size={16} /> Back to Blog
         </Link>
         <article className="bg-card border border-border rounded-2xl overflow-hidden">
-          <div className="h-64 sm:h-80 overflow-hidden">
-            <img src={post.img} alt={post.title} className="w-full h-full object-cover" />
-          </div>
+          <img src={post.img} alt={post.title} className="w-full h-auto block" />
           <div className="p-6 sm:p-10">
             <div className="flex items-center gap-3 mb-4 flex-wrap">
               <span className="text-gold text-xs font-bold uppercase bg-gold/10 px-3 py-1 rounded-full">{post.category}</span>
