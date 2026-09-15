@@ -9,5 +9,16 @@
     "timestamp": "2026-09-04T09:16:03.601Z",
     "_id": "a4662a97-26df-4262-9139-97178c8acadd",
     "_createdAt": "2026-09-04T09:16:03.761Z"
+  },
+  {
+    "to": "afrifitevents@gmail.com",
+    "subject": "NexaFlow Digital — Payment Reminder",
+    "template": "payment_reminder",
+    "clientName": "DOMINIC NANGEA",
+    "projectName": "AFRIFITS EVENTS AND EXPOS",
+    "sentBy": "smartsolutions870@gmail.com",
+    "timestamp": "2026-09-15T11:57:27.410Z",
+    "_id": "d4a6443c-a2b3-4750-b353-fa4d90e41515",
+    "_createdAt": "2026-09-15T11:57:27.592Z"
   }
 ]
