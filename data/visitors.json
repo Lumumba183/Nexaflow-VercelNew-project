@@ -1,0 +1,13 @@
+[
+  {
+    "page": "/",
+    "referrer": "verification-test",
+    "ip": "43.153.35.171",
+    "country": "US",
+    "city": "Santa%20Clara",
+    "userAgent": "curl/7.88.1",
+    "timestamp": "2026-09-15T10:53:45.879Z",
+    "_id": "f00fa853-97bc-4b23-ae48-6a0acd51b7e3",
+    "_createdAt": "2026-09-15T10:53:46.035Z"
+  }
+]
