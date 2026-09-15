@@ -108,5 +108,16 @@
     "timestamp": "2026-09-15T16:47:24.873Z",
     "_id": "cc197a79-0603-4ccc-be7d-23f6dfcbcf06",
     "_createdAt": "2026-09-15T16:47:25.068Z"
+  },
+  {
+    "page": "/blog/nairobi-business-needs-professional-website",
+    "referrer": "direct",
+    "ip": "57.141.18.7",
+    "country": "US",
+    "city": "Dallas",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "timestamp": "2026-09-15T20:17:49.768Z",
+    "_id": "caa0932a-478c-4435-a99f-d2574ba09390",
+    "_createdAt": "2026-09-15T20:17:49.986Z"
   }
 ]
