@@ -163,5 +163,16 @@
     "timestamp": "2026-09-16T04:22:17.110Z",
     "_id": "263cbad2-cd64-42ae-8260-b0a64c5bac36",
     "_createdAt": "2026-09-16T04:22:17.299Z"
+  },
+  {
+    "page": "/privacy",
+    "referrer": "direct",
+    "ip": "57.141.18.7",
+    "country": "US",
+    "city": "Dallas",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "timestamp": "2026-09-16T04:52:33.100Z",
+    "_id": "6f585dd2-0856-4c8e-8d59-ff2e41999d42",
+    "_createdAt": "2026-09-16T04:52:33.322Z"
   }
 ]
