@@ -251,5 +251,16 @@
     "timestamp": "2026-09-16T06:38:32.711Z",
     "_id": "66f30567-a011-4b39-ae79-38417ffa17a6",
     "_createdAt": "2026-09-16T06:38:32.860Z"
+  },
+  {
+    "page": "/blog/website-development-nexaflow-see-it-before-you-pay",
+    "referrer": "direct",
+    "ip": "217.199.148.228",
+    "country": "KE",
+    "city": "Nairobi",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "timestamp": "2026-09-16T06:38:37.592Z",
+    "_id": "0b06f972-ef82-429d-9f66-977b9d7c0692",
+    "_createdAt": "2026-09-16T06:38:37.770Z"
   }
 ]
