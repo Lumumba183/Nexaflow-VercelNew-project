@@ -207,5 +207,16 @@
     "timestamp": "2026-09-16T06:26:34.515Z",
     "_id": "e80065ca-d612-4e62-b1fb-61143f35fa1e",
     "_createdAt": "2026-09-16T06:26:34.699Z"
+  },
+  {
+    "page": "/blog",
+    "referrer": "https://www.nexaflow-digital.com/",
+    "ip": "217.199.148.228",
+    "country": "KE",
+    "city": "Nairobi",
+    "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+    "timestamp": "2026-09-16T06:26:41.501Z",
+    "_id": "377647d2-46d8-435d-ab7d-758c8aa7bac1",
+    "_createdAt": "2026-09-16T06:26:41.633Z"
   }
 ]
