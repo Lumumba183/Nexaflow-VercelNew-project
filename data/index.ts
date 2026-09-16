@@ -30,8 +30,8 @@ export const projectCategories = [
       },
       {
         badge: 'Live Website',
-        title: 'The Coast Media Group',
-        desc: 'The News Booth — Coastal Kenya\'s news, radio & TV house: breaking county news, sports, politics and opinion pieces with a full newsroom publishing workflow and daily AI-assisted publishing.',
+        title: 'The News Booth',
+        desc: 'Kenya\'s digital newsroom — breaking national & world news, sports, politics, business and opinion pieces with a full newsroom publishing workflow and daily AI-assisted publishing.',
         img: '/portfolio/coastmedia.jpg',
         link: 'https://www.thenewsbooth.co.ke/',
       },
