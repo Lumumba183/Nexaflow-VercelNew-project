@@ -317,5 +317,16 @@
     "timestamp": "2026-09-16T21:06:47.246Z",
     "_id": "72b82ff2-a6ce-4daa-84cc-6808dc0116e2",
     "_createdAt": "2026-09-16T21:06:47.446Z"
+  },
+  {
+    "page": "/products",
+    "referrer": "https://www.nexaflow-digital.com/",
+    "ip": "217.199.148.228",
+    "country": "KE",
+    "city": "Nairobi",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "timestamp": "2026-09-16T21:10:53.124Z",
+    "_id": "97dddb94-fae5-44ec-9188-dddd2b3cd5a4",
+    "_createdAt": "2026-09-16T21:10:53.332Z"
   }
 ]
