@@ -152,5 +152,16 @@
     "timestamp": "2026-09-16T01:19:12.352Z",
     "_id": "7165f470-2b2c-4376-89cb-3ea516e52115",
     "_createdAt": "2026-09-16T01:19:12.528Z"
+  },
+  {
+    "page": "/blog/7-signs-website-losing-customers",
+    "referrer": "direct",
+    "ip": "57.141.18.76",
+    "country": "US",
+    "city": "Dallas",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "timestamp": "2026-09-16T04:22:17.110Z",
+    "_id": "263cbad2-cd64-42ae-8260-b0a64c5bac36",
+    "_createdAt": "2026-09-16T04:22:17.299Z"
   }
 ]
