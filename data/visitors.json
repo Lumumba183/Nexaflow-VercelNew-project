@@ -119,5 +119,16 @@
     "timestamp": "2026-09-15T20:17:49.768Z",
     "_id": "caa0932a-478c-4435-a99f-d2574ba09390",
     "_createdAt": "2026-09-15T20:17:49.986Z"
+  },
+  {
+    "page": "/blog/mpesa-integration-ecommerce-kenya-boost-sales",
+    "referrer": "direct",
+    "ip": "57.141.18.37",
+    "country": "US",
+    "city": "Dallas",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "timestamp": "2026-09-16T01:00:48.184Z",
+    "_id": "c9001b3c-60d9-48b1-892c-ffb33b24897d",
+    "_createdAt": "2026-09-16T01:00:48.367Z"
   }
 ]
