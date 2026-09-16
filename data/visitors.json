@@ -174,5 +174,16 @@
     "timestamp": "2026-09-16T04:52:33.100Z",
     "_id": "6f585dd2-0856-4c8e-8d59-ff2e41999d42",
     "_createdAt": "2026-09-16T04:52:33.322Z"
+  },
+  {
+    "page": "/",
+    "referrer": "direct",
+    "ip": "18.204.23.95",
+    "country": "US",
+    "city": "Ashburn",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "timestamp": "2026-09-16T06:13:48.289Z",
+    "_id": "5b7888ca-229b-49a2-95ee-f0e209135487",
+    "_createdAt": "2026-09-16T06:13:48.491Z"
   }
 ]
