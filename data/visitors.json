@@ -262,5 +262,16 @@
     "timestamp": "2026-09-16T06:38:37.592Z",
     "_id": "0b06f972-ef82-429d-9f66-977b9d7c0692",
     "_createdAt": "2026-09-16T06:38:37.770Z"
+  },
+  {
+    "page": "/contact",
+    "referrer": "direct",
+    "ip": "57.141.18.102",
+    "country": "US",
+    "city": "Dallas",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "timestamp": "2026-09-16T07:51:11.629Z",
+    "_id": "84488e99-145f-46ad-af43-00250db0a082",
+    "_createdAt": "2026-09-16T07:51:11.848Z"
   }
 ]
