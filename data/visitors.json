@@ -339,5 +339,16 @@
     "timestamp": "2026-09-16T21:11:24.481Z",
     "_id": "bd0e876a-9de7-459f-89c7-2c4066e3717f",
     "_createdAt": "2026-09-16T21:11:24.672Z"
+  },
+  {
+    "page": "/contract/direct",
+    "referrer": "direct",
+    "ip": "57.141.18.85",
+    "country": "US",
+    "city": "Dallas",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "timestamp": "2026-09-16T21:42:08.187Z",
+    "_id": "586e571c-54c0-447d-b4f4-24659560203f",
+    "_createdAt": "2026-09-16T21:42:08.379Z"
   }
 ]
