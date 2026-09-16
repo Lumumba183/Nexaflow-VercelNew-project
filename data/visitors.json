@@ -284,5 +284,16 @@
     "timestamp": "2026-09-16T18:02:33.246Z",
     "_id": "55cf0c1e-87f1-4a0c-a943-274eb97227fc",
     "_createdAt": "2026-09-16T18:02:33.496Z"
+  },
+  {
+    "page": "/blog/m-pesa-integration-website",
+    "referrer": "direct",
+    "ip": "57.141.18.42",
+    "country": "US",
+    "city": "Dallas",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "timestamp": "2026-09-16T20:53:25.185Z",
+    "_id": "15211048-9015-47e8-854c-907fef56733b",
+    "_createdAt": "2026-09-16T20:53:25.399Z"
   }
 ]
