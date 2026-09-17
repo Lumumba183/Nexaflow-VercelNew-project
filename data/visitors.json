@@ -372,5 +372,16 @@
     "timestamp": "2026-09-17T02:01:36.409Z",
     "_id": "46888208-41f5-459c-9731-97f000a21131",
     "_createdAt": "2026-09-17T02:01:36.627Z"
+  },
+  {
+    "page": "/pricing",
+    "referrer": "direct",
+    "ip": "57.141.18.33",
+    "country": "US",
+    "city": "Dallas",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "timestamp": "2026-09-17T03:03:52.815Z",
+    "_id": "7644288e-14fc-457e-b87f-35541e59633c",
+    "_createdAt": "2026-09-17T03:03:53.008Z"
   }
 ]
