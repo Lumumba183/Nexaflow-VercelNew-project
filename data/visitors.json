@@ -548,5 +548,16 @@
     "timestamp": "2026-09-17T11:05:47.252Z",
     "_id": "c97deea8-1261-4cb3-9089-c5f24a4686d5",
     "_createdAt": "2026-09-17T11:05:47.474Z"
+  },
+  {
+    "page": "/blog/nairobi-business-needs-professional-website",
+    "referrer": "https://www.nexaflow-digital.com/portfolio",
+    "ip": "217.199.148.228",
+    "country": "KE",
+    "city": "Nairobi",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "timestamp": "2026-09-17T11:06:36.681Z",
+    "_id": "ffdff8ab-184e-4183-9184-7875d44c1018",
+    "_createdAt": "2026-09-17T11:06:36.879Z"
   }
 ]
