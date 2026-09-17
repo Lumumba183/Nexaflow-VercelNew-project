@@ -559,5 +559,16 @@
     "timestamp": "2026-09-17T11:06:36.681Z",
     "_id": "ffdff8ab-184e-4183-9184-7875d44c1018",
     "_createdAt": "2026-09-17T11:06:36.879Z"
+  },
+  {
+    "page": "/",
+    "referrer": "https://www.nexaflow-digital.com/portfolio",
+    "ip": "217.199.148.228",
+    "country": "KE",
+    "city": "Nairobi",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "timestamp": "2026-09-17T11:11:10.750Z",
+    "_id": "3718f250-2acb-4974-8394-25c0bd52d6f9",
+    "_createdAt": "2026-09-17T11:11:10.971Z"
   }
 ]
