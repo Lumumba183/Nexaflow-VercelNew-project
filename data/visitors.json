@@ -449,5 +449,16 @@
     "timestamp": "2026-09-17T04:44:08.590Z",
     "_id": "f102ddfb-4f9a-411f-9852-202aa020e32a",
     "_createdAt": "2026-09-17T04:44:08.744Z"
+  },
+  {
+    "page": "/blog/nairobi-business-needs-professional-website",
+    "referrer": "direct",
+    "ip": "69.58.64.34",
+    "country": "US",
+    "city": "unknown",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+    "timestamp": "2026-09-17T04:44:09.990Z",
+    "_id": "fc66ce5d-6c13-4595-a204-a28ddaee3b0e",
+    "_createdAt": "2026-09-17T04:44:10.118Z"
   }
 ]
