@@ -603,5 +603,16 @@
     "timestamp": "2026-09-17T11:20:21.633Z",
     "_id": "ecaef8ec-aa8b-4e8a-b70f-de00b2d66acc",
     "_createdAt": "2026-09-17T11:20:21.827Z"
+  },
+  {
+    "page": "/blog",
+    "referrer": "https://www.google.com/",
+    "ip": "217.199.148.228",
+    "country": "KE",
+    "city": "Nairobi",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "timestamp": "2026-09-17T14:38:41.771Z",
+    "_id": "4b781948-7ed9-4088-a9bc-d3fdc4bb2ccc",
+    "_createdAt": "2026-09-17T14:38:41.983Z"
   }
 ]
