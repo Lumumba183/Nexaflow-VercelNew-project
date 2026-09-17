@@ -669,5 +669,16 @@
     "timestamp": "2026-09-17T21:02:59.197Z",
     "_id": "e3b7b7b1-4fd0-450d-bd98-6b18846a4646",
     "_createdAt": "2026-09-17T21:02:59.417Z"
+  },
+  {
+    "page": "/portfolio",
+    "referrer": "https://lm.facebook.com/",
+    "ip": "217.199.148.228",
+    "country": "KE",
+    "city": "Nairobi",
+    "userAgent": "Mozilla/5.0 (Linux; Android 11; Nokia C21 Plus Build/RP1A.201005.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/151.0.7922.199 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/574.0.0.40.71;IABMV/1;]",
+    "timestamp": "2026-09-17T21:15:42.025Z",
+    "_id": "dfd7cdfb-1a7c-4882-8c16-4eb5f9b76ba8",
+    "_createdAt": "2026-09-17T21:15:42.201Z"
   }
 ]
