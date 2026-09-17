@@ -680,5 +680,16 @@
     "timestamp": "2026-09-17T21:15:42.025Z",
     "_id": "dfd7cdfb-1a7c-4882-8c16-4eb5f9b76ba8",
     "_createdAt": "2026-09-17T21:15:42.201Z"
+  },
+  {
+    "page": "/portfolio",
+    "referrer": "direct",
+    "ip": "41.73.41.71",
+    "country": "ZA",
+    "city": "Johannesburg",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+    "timestamp": "2026-09-17T21:15:44.937Z",
+    "_id": "7124aa8e-38d2-4c40-89f5-e1c71539a83e",
+    "_createdAt": "2026-09-17T21:15:45.050Z"
   }
 ]
