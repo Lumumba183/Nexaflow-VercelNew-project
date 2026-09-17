@@ -636,5 +636,16 @@
     "timestamp": "2026-09-17T18:11:26.535Z",
     "_id": "b5cecf5b-2eba-4091-9c90-18ae4cbeff3b",
     "_createdAt": "2026-09-17T18:11:26.725Z"
+  },
+  {
+    "page": "/",
+    "referrer": "https://www.linkedin.com/",
+    "ip": "217.199.148.228",
+    "country": "KE",
+    "city": "Nairobi",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "timestamp": "2026-09-17T19:38:37.174Z",
+    "_id": "4ae73fe2-4da8-4c9f-b56b-75b489b4e6c5",
+    "_createdAt": "2026-09-17T19:38:37.388Z"
   }
 ]
