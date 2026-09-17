@@ -416,5 +416,16 @@
     "timestamp": "2026-09-17T04:43:22.665Z",
     "_id": "c6319e74-6c8a-4f93-8a1e-0c4f495c28b8",
     "_createdAt": "2026-09-17T04:43:22.836Z"
+  },
+  {
+    "page": "/blog/m-pesa-integration-website",
+    "referrer": "direct",
+    "ip": "66.146.237.21",
+    "country": "US",
+    "city": "unknown",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+    "timestamp": "2026-09-17T04:43:26.034Z",
+    "_id": "3a235076-17c7-44ba-ad23-98e1d93da0df",
+    "_createdAt": "2026-09-17T04:43:26.164Z"
   }
 ]
