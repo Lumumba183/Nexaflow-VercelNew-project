@@ -394,5 +394,16 @@
     "timestamp": "2026-09-17T03:55:23.049Z",
     "_id": "beb500b2-6b9c-4738-b0c7-0807f10ae423",
     "_createdAt": "2026-09-17T03:55:23.283Z"
+  },
+  {
+    "page": "/blog/what-is-a-domain-name-beginners-guide",
+    "referrer": "direct",
+    "ip": "149.57.191.243",
+    "country": "US",
+    "city": "New%20York",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+    "timestamp": "2026-09-17T04:43:09.290Z",
+    "_id": "8cbc25ce-0300-4a75-8a53-3489e944ea7a",
+    "_createdAt": "2026-09-17T04:43:09.513Z"
   }
 ]
