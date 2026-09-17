@@ -9,5 +9,18 @@
     "type": "contact",
     "_id": "7873064d-6e89-4158-a9d3-a3daa109dd02",
     "_createdAt": "2026-09-12T08:35:58.386Z"
+  },
+  {
+    "name": "Hillary Kigali",
+    "email": "contractorshekan@gmail.com",
+    "phone": "+254106216699",
+    "company": "Smart Biz Online Shop",
+    "service": "website",
+    "message": "hi this trial",
+    "ip": "217.199.148.228",
+    "timestamp": "2026-09-17T11:20:45.714Z",
+    "type": "contact",
+    "_id": "0ffa9c32-9ccf-4c93-bac2-09768c956613",
+    "_createdAt": "2026-09-17T11:20:45.894Z"
   }
 ]
