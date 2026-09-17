@@ -210,6 +210,33 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     ],
   };
 
+  // FAQ structured data: parse the "## Frequently Asked Questions" section
+  const faqItems: { q: string; a: string }[] = [];
+  const faqStart = post.content.findIndex((c) => /^##\s+frequently asked questions/i.test(c.trim()));
+  if (faqStart !== -1) {
+    for (let i = faqStart + 1; i < post.content.length; i++) {
+      const line = post.content[i].trim();
+      if (/^##\s/.test(line) && !/^###\s/.test(line)) break;
+      if (line.startsWith('### ')) {
+        faqItems.push({ q: line.slice(4).trim(), a: '' });
+      } else if (faqItems.length && line && !line.startsWith('🍪')) {
+        const last = faqItems[faqItems.length - 1];
+        last.a = last.a ? `${last.a} ${line}` : line;
+      }
+    }
+  }
+  const faqLd = faqItems.length
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: faqItems.map(({ q, a }) => ({
+          '@type': 'Question',
+          name: q,
+          acceptedAnswer: { '@type': 'Answer', text: a },
+        })),
+      }
+    : null;
+
   // Related: same category first, then latest others — 3 cards
   const others = blogPosts.filter((p) => p.slug !== slug);
   const related = [
@@ -221,6 +248,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     <div className="py-20 px-4">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }} />
+      {faqLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />}
       <div className="max-w-3xl mx-auto">
         <nav aria-label="Breadcrumb" className="text-xs text-text-dark mb-6 flex items-center gap-2 flex-wrap">
           <Link href="/" className="hover:text-gold transition-colors">Home</Link>

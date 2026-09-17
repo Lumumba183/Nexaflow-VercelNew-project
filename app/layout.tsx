@@ -56,6 +56,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             telephone: '+254106216699',
             email: 'smartsolutions870@gmail.com',
             address: { '@type': 'PostalAddress', addressLocality: 'Nairobi', addressCountry: 'KE' },
+            areaServed: [{ '@type': 'Country', name: 'Kenya' }, { '@type': 'AdministrativeArea', name: 'East Africa' }],
+            knowsAbout: ['Website Development', 'AI Automation', 'WhatsApp Automation', 'E-commerce Development', 'SEO'],
             sameAs: ['https://wedialai.com'],
           }),
         }} />
