@@ -614,5 +614,16 @@
     "timestamp": "2026-09-17T14:38:41.771Z",
     "_id": "4b781948-7ed9-4088-a9bc-d3fdc4bb2ccc",
     "_createdAt": "2026-09-17T14:38:41.983Z"
+  },
+  {
+    "page": "/blog/ai-automation-nairobi-10000-customers",
+    "referrer": "direct",
+    "ip": "57.141.18.109",
+    "country": "US",
+    "city": "Dallas",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "timestamp": "2026-09-17T16:46:08.501Z",
+    "_id": "f212fdee-a452-4275-8084-54bea2416ae9",
+    "_createdAt": "2026-09-17T16:46:08.680Z"
   }
 ]
