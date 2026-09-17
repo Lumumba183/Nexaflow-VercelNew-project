@@ -471,5 +471,16 @@
     "timestamp": "2026-09-17T04:53:19.489Z",
     "_id": "498f4e23-847c-45b1-af86-08773266bd32",
     "_createdAt": "2026-09-17T04:53:19.653Z"
+  },
+  {
+    "page": "/blog/whatsapp-business-api-kenya-ecommerce-guide",
+    "referrer": "direct",
+    "ip": "57.141.18.61",
+    "country": "US",
+    "city": "Dallas",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "timestamp": "2026-09-17T06:40:53.466Z",
+    "_id": "6c43d383-46b0-40d7-b57e-2c3e5b75cd35",
+    "_createdAt": "2026-09-17T06:40:53.680Z"
   }
 ]
