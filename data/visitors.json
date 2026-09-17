@@ -350,5 +350,16 @@
     "timestamp": "2026-09-16T21:42:08.187Z",
     "_id": "586e571c-54c0-447d-b4f4-24659560203f",
     "_createdAt": "2026-09-16T21:42:08.379Z"
+  },
+  {
+    "page": "/",
+    "referrer": "direct",
+    "ip": "72.145.83.71",
+    "country": "IE",
+    "city": "Dublin",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.7444.162 Safari/537.36",
+    "timestamp": "2026-09-17T00:29:23.378Z",
+    "_id": "ded37e69-b64b-4d55-93dd-ad2940d983d7",
+    "_createdAt": "2026-09-17T00:29:23.620Z"
   }
 ]
