@@ -482,5 +482,16 @@
     "timestamp": "2026-09-17T06:40:53.466Z",
     "_id": "6c43d383-46b0-40d7-b57e-2c3e5b75cd35",
     "_createdAt": "2026-09-17T06:40:53.680Z"
+  },
+  {
+    "page": "/blog/website-design-mombasa-2026",
+    "referrer": "direct",
+    "ip": "57.141.18.38",
+    "country": "US",
+    "city": "Dallas",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "timestamp": "2026-09-17T08:51:32.717Z",
+    "_id": "e4ad9f49-e571-4204-bf0d-12e99dea31bd",
+    "_createdAt": "2026-09-17T08:51:32.955Z"
   }
 ]
