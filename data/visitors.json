@@ -383,5 +383,16 @@
     "timestamp": "2026-09-17T03:03:52.815Z",
     "_id": "7644288e-14fc-457e-b87f-35541e59633c",
     "_createdAt": "2026-09-17T03:03:53.008Z"
+  },
+  {
+    "page": "/blog",
+    "referrer": "direct",
+    "ip": "207.182.28.107",
+    "country": "US",
+    "city": "unknown",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+    "timestamp": "2026-09-17T03:55:23.049Z",
+    "_id": "beb500b2-6b9c-4738-b0c7-0807f10ae423",
+    "_createdAt": "2026-09-17T03:55:23.283Z"
   }
 ]
