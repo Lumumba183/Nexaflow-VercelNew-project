@@ -460,5 +460,16 @@
     "timestamp": "2026-09-17T04:44:09.990Z",
     "_id": "fc66ce5d-6c13-4595-a204-a28ddaee3b0e",
     "_createdAt": "2026-09-17T04:44:10.118Z"
+  },
+  {
+    "page": "/blog/why-nairobi-business-needs-mobile-app-2026",
+    "referrer": "direct",
+    "ip": "57.141.18.2",
+    "country": "US",
+    "city": "Dallas",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "timestamp": "2026-09-17T04:53:19.489Z",
+    "_id": "498f4e23-847c-45b1-af86-08773266bd32",
+    "_createdAt": "2026-09-17T04:53:19.653Z"
   }
 ]
