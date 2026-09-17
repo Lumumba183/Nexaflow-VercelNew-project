@@ -647,5 +647,16 @@
     "timestamp": "2026-09-17T19:38:37.174Z",
     "_id": "4ae73fe2-4da8-4c9f-b56b-75b489b4e6c5",
     "_createdAt": "2026-09-17T19:38:37.388Z"
+  },
+  {
+    "page": "/portfolio",
+    "referrer": "https://www.linkedin.com/",
+    "ip": "217.199.148.228",
+    "country": "KE",
+    "city": "Nairobi",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "timestamp": "2026-09-17T19:40:27.522Z",
+    "_id": "e0374d75-913a-4e7a-81b9-3a1452e190d1",
+    "_createdAt": "2026-09-17T19:40:27.713Z"
   }
 ]
