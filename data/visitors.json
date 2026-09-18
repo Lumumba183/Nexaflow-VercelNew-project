@@ -1164,5 +1164,16 @@
     "timestamp": "2026-09-18T19:25:04.679Z",
     "_id": "c5d62949-a512-4361-8df3-72e692fa64d7",
     "_createdAt": "2026-09-18T19:25:04.892Z"
+  },
+  {
+    "page": "/pricing",
+    "referrer": "direct",
+    "ip": "62.201.226.209",
+    "country": "IQ",
+    "city": "unknown",
+    "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Mobile Safari/537.36",
+    "timestamp": "2026-09-18T19:25:07.772Z",
+    "_id": "9e14972b-d6ea-4094-bc15-9578bb866e61",
+    "_createdAt": "2026-09-18T19:25:07.916Z"
   }
 ]
