@@ -1175,5 +1175,16 @@
     "timestamp": "2026-09-18T19:25:07.772Z",
     "_id": "9e14972b-d6ea-4094-bc15-9578bb866e61",
     "_createdAt": "2026-09-18T19:25:07.916Z"
+  },
+  {
+    "page": "/portfolio",
+    "referrer": "direct",
+    "ip": "62.201.226.209",
+    "country": "IQ",
+    "city": "unknown",
+    "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Mobile Safari/537.36",
+    "timestamp": "2026-09-18T19:25:16.076Z",
+    "_id": "f49b33d8-e815-4d62-b650-46b9ecc4584b",
+    "_createdAt": "2026-09-18T19:25:16.308Z"
   }
 ]
