@@ -790,5 +790,16 @@
     "timestamp": "2026-09-18T06:56:09.786Z",
     "_id": "b28275a7-1636-4f73-97f6-42dcf6a56925",
     "_createdAt": "2026-09-18T06:56:09.972Z"
+  },
+  {
+    "page": "/portfolio",
+    "referrer": "https://facebook.com/",
+    "ip": "101.118.3.121",
+    "country": "AU",
+    "city": "Perth",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/23G90 Safari/604.1 [FBAN/FBIOS;FBAV/578.1.0.71.72;FBBV/1063022819;FBDV/iPhone16,1;FBMD/iPhone;FBSN/iOS;FBSV/26.6.2;FBSS/3;FBID/phone;FBLC/en_GB;FBOP/5;FBRV/1070089215;IABMV/1]",
+    "timestamp": "2026-09-18T07:27:26.590Z",
+    "_id": "df97b5f0-b686-474f-befe-aef2f8488e43",
+    "_createdAt": "2026-09-18T07:27:26.776Z"
   }
 ]
