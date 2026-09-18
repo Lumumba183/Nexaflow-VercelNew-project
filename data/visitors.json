@@ -977,5 +977,16 @@
     "timestamp": "2026-09-18T14:06:19.150Z",
     "_id": "e63618d3-0af1-4e01-a704-775274670c7f",
     "_createdAt": "2026-09-18T14:06:19.330Z"
+  },
+  {
+    "page": "/products/nexareach",
+    "referrer": "https://www.nexaflow-digital.com/blog/true-cost-of-slow-website-what-every-second-costs-you",
+    "ip": "217.199.148.228",
+    "country": "KE",
+    "city": "Nairobi",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "timestamp": "2026-09-18T14:07:18.107Z",
+    "_id": "bb761447-1cdc-4eaa-a5ec-51baf352aaad",
+    "_createdAt": "2026-09-18T14:07:18.348Z"
   }
 ]
