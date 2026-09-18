@@ -724,5 +724,16 @@
     "timestamp": "2026-09-18T00:53:27.454Z",
     "_id": "4b196385-855b-403e-a379-236f8aa547fd",
     "_createdAt": "2026-09-18T00:53:27.684Z"
+  },
+  {
+    "page": "/portfolio",
+    "referrer": "direct",
+    "ip": "161.142.140.181",
+    "country": "MY",
+    "city": "Petaling%20Jaya",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64; rv:148.0) Gecko/20100101 Firefox/148.0",
+    "timestamp": "2026-09-18T01:30:31.200Z",
+    "_id": "3361219a-9e25-42f9-9b71-31fc1a72231d",
+    "_createdAt": "2026-09-18T01:30:31.375Z"
   }
 ]
