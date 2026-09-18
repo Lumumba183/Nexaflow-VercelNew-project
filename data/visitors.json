@@ -1153,5 +1153,16 @@
     "timestamp": "2026-09-18T16:18:42.252Z",
     "_id": "79dec428-7184-45da-9cce-a45fdb3c5697",
     "_createdAt": "2026-09-18T16:18:42.485Z"
+  },
+  {
+    "page": "/",
+    "referrer": "direct",
+    "ip": "62.201.226.209",
+    "country": "IQ",
+    "city": "unknown",
+    "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Mobile Safari/537.36",
+    "timestamp": "2026-09-18T19:25:04.679Z",
+    "_id": "c5d62949-a512-4361-8df3-72e692fa64d7",
+    "_createdAt": "2026-09-18T19:25:04.892Z"
   }
 ]
