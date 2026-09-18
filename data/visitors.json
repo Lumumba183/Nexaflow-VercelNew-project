@@ -757,5 +757,16 @@
     "timestamp": "2026-09-18T06:42:45.426Z",
     "_id": "ef6fb478-c8aa-4a46-92de-9312624a7a49",
     "_createdAt": "2026-09-18T06:42:45.642Z"
+  },
+  {
+    "page": "/blog",
+    "referrer": "direct",
+    "ip": "72.92.235.249",
+    "country": "US",
+    "city": "Providence",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "timestamp": "2026-09-18T06:42:53.805Z",
+    "_id": "b49b795b-f9e7-46e2-be3c-492369f60bb2",
+    "_createdAt": "2026-09-18T06:42:53.993Z"
   }
 ]
