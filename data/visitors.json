@@ -1142,5 +1142,16 @@
     "timestamp": "2026-09-18T15:38:37.919Z",
     "_id": "ad040f7a-ef99-4f08-9e2b-d45903e8a899",
     "_createdAt": "2026-09-18T15:38:38.139Z"
+  },
+  {
+    "page": "/products/nexareach",
+    "referrer": "direct",
+    "ip": "98.97.169.117",
+    "country": "US",
+    "city": "Atlanta",
+    "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Mobile Safari/537.36",
+    "timestamp": "2026-09-18T16:18:42.252Z",
+    "_id": "79dec428-7184-45da-9cce-a45fdb3c5697",
+    "_createdAt": "2026-09-18T16:18:42.485Z"
   }
 ]
