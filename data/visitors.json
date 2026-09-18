@@ -1076,5 +1076,16 @@
     "timestamp": "2026-09-18T14:35:42.444Z",
     "_id": "24b694f8-ed67-417a-bb1b-d2f1dc0e8f9c",
     "_createdAt": "2026-09-18T14:35:42.634Z"
+  },
+  {
+    "page": "/products/nexareach",
+    "referrer": "direct",
+    "ip": "105.160.95.186",
+    "country": "KE",
+    "city": "Nairobi",
+    "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/30.0 Chrome/143.0.0.0 Mobile Safari/537.36",
+    "timestamp": "2026-09-18T14:47:54.926Z",
+    "_id": "85cbf189-f3ea-4be3-b8a0-ffc11d3ffe6d",
+    "_createdAt": "2026-09-18T14:47:55.104Z"
   }
 ]
