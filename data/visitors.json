@@ -834,5 +834,16 @@
     "timestamp": "2026-09-18T07:27:41.166Z",
     "_id": "a2b9e7c1-821b-4a4b-9528-4dd64098b3d5",
     "_createdAt": "2026-09-18T07:27:41.296Z"
+  },
+  {
+    "page": "/portfolio",
+    "referrer": "https://l.facebook.com/",
+    "ip": "38.86.231.152",
+    "country": "US",
+    "city": "Cincinnati",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "timestamp": "2026-09-18T08:47:14.301Z",
+    "_id": "7ac94639-1673-43f4-a205-e951d5006ee9",
+    "_createdAt": "2026-09-18T08:47:14.534Z"
   }
 ]
