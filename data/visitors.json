@@ -867,5 +867,16 @@
     "timestamp": "2026-09-18T10:39:59.120Z",
     "_id": "ca4974a0-b966-4cce-abe8-2bc30a9acde0",
     "_createdAt": "2026-09-18T10:39:59.473Z"
+  },
+  {
+    "page": "/",
+    "referrer": "https://www.nexaflow-digital.com/blog/what-is-a-domain-name-beginners-guide",
+    "ip": "154.192.200.73",
+    "country": "PK",
+    "city": "Sargodha",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+    "timestamp": "2026-09-18T10:45:50.306Z",
+    "_id": "543359e3-2163-479b-9c76-b557d939e15e",
+    "_createdAt": "2026-09-18T10:45:50.501Z"
   }
 ]
