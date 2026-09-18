@@ -1120,5 +1120,16 @@
     "timestamp": "2026-09-18T15:02:49.127Z",
     "_id": "a4587f00-a071-48e6-b30a-b24c28db66c2",
     "_createdAt": "2026-09-18T15:02:49.315Z"
+  },
+  {
+    "page": "/pricing",
+    "referrer": "direct",
+    "ip": "102.216.86.241",
+    "country": "KE",
+    "city": "Nairobi",
+    "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/30.0 Chrome/143.0.0.0 Mobile Safari/537.36",
+    "timestamp": "2026-09-18T15:02:51.766Z",
+    "_id": "ab3a9d51-5bed-47b5-8d0c-aaecdfa645ab",
+    "_createdAt": "2026-09-18T15:02:51.888Z"
   }
 ]
