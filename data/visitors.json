@@ -1021,5 +1021,16 @@
     "timestamp": "2026-09-18T14:15:41.904Z",
     "_id": "67bbb3f5-9cbf-4a50-bd00-e8ad44a59b80",
     "_createdAt": "2026-09-18T14:15:42.032Z"
+  },
+  {
+    "page": "/portfolio",
+    "referrer": "https://www.nexaflow-digital.com/blog/true-cost-of-slow-website-what-every-second-costs-you",
+    "ip": "217.199.148.228",
+    "country": "KE",
+    "city": "Nairobi",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "timestamp": "2026-09-18T14:22:47.272Z",
+    "_id": "90037b84-b9b0-42bc-b56d-8fc0b7f3a89e",
+    "_createdAt": "2026-09-18T14:22:47.442Z"
   }
 ]
