@@ -1032,5 +1032,16 @@
     "timestamp": "2026-09-18T14:22:47.272Z",
     "_id": "90037b84-b9b0-42bc-b56d-8fc0b7f3a89e",
     "_createdAt": "2026-09-18T14:22:47.442Z"
+  },
+  {
+    "page": "/portfolio",
+    "referrer": "direct",
+    "ip": "197.156.148.9",
+    "country": "KE",
+    "city": "Kiambu",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "timestamp": "2026-09-18T14:25:43.163Z",
+    "_id": "7972d380-eca6-467a-911d-c08a12756167",
+    "_createdAt": "2026-09-18T14:25:43.368Z"
   }
 ]
