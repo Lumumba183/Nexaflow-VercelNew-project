@@ -1010,5 +1010,16 @@
     "timestamp": "2026-09-18T14:15:37.193Z",
     "_id": "d86d6524-c6e9-4690-b9fd-f89bab2a80f4",
     "_createdAt": "2026-09-18T14:15:37.367Z"
+  },
+  {
+    "page": "/portfolio",
+    "referrer": "direct",
+    "ip": "154.159.252.10",
+    "country": "KE",
+    "city": "Nairobi",
+    "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+    "timestamp": "2026-09-18T14:15:41.904Z",
+    "_id": "67bbb3f5-9cbf-4a50-bd00-e8ad44a59b80",
+    "_createdAt": "2026-09-18T14:15:42.032Z"
   }
 ]
