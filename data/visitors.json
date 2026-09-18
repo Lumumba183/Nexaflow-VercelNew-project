@@ -1131,5 +1131,16 @@
     "timestamp": "2026-09-18T15:02:51.766Z",
     "_id": "ab3a9d51-5bed-47b5-8d0c-aaecdfa645ab",
     "_createdAt": "2026-09-18T15:02:51.888Z"
+  },
+  {
+    "page": "/portfolio",
+    "referrer": "direct",
+    "ip": "169.58.252.93",
+    "country": "DE",
+    "city": "unknown",
+    "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+    "timestamp": "2026-09-18T15:38:37.919Z",
+    "_id": "ad040f7a-ef99-4f08-9e2b-d45903e8a899",
+    "_createdAt": "2026-09-18T15:38:38.139Z"
   }
 ]
