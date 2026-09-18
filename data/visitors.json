@@ -856,5 +856,16 @@
     "timestamp": "2026-09-18T08:47:31.952Z",
     "_id": "b246c21b-e9c4-4dbf-b833-748b11389670",
     "_createdAt": "2026-09-18T08:47:32.160Z"
+  },
+  {
+    "page": "/blog/what-is-a-domain-name-beginners-guide",
+    "referrer": "https://www.google.com/",
+    "ip": "154.192.206.26",
+    "country": "PK",
+    "city": "Sargodha",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+    "timestamp": "2026-09-18T10:39:59.120Z",
+    "_id": "ca4974a0-b966-4cce-abe8-2bc30a9acde0",
+    "_createdAt": "2026-09-18T10:39:59.473Z"
   }
 ]
