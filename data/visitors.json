@@ -823,5 +823,16 @@
     "timestamp": "2026-09-18T07:27:39.165Z",
     "_id": "f8c9a99c-37a8-4ebe-9bfe-3cccab6c427e",
     "_createdAt": "2026-09-18T07:27:39.298Z"
+  },
+  {
+    "page": "/pricing",
+    "referrer": "https://www.nexaflow-digital.com/portfolio?fbclid=IwcGRvZgFmZGlkFlDqFToeVY1od_0F1Pds8h5AtQZtwmFleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAo2NjI4NTY4Mzc5AAEeq87s-9iGyp9EpYcOwC0BBvNXq7Qskbnsnv3qbRkQlDZu8I1fHqvvOEITf-o_aem_NstWzR1OP19XvrhWXUaJFA",
+    "ip": "101.118.3.121",
+    "country": "AU",
+    "city": "Perth",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/23G90 Safari/604.1 [FBAN/FBIOS;FBAV/578.1.0.71.72;FBBV/1063022819;FBDV/iPhone16,1;FBMD/iPhone;FBSN/iOS;FBSV/26.6.2;FBSS/3;FBID/phone;FBLC/en_GB;FBOP/5;FBRV/1070089215;IABMV/1]",
+    "timestamp": "2026-09-18T07:27:41.166Z",
+    "_id": "a2b9e7c1-821b-4a4b-9528-4dd64098b3d5",
+    "_createdAt": "2026-09-18T07:27:41.296Z"
   }
 ]
