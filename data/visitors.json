@@ -988,5 +988,16 @@
     "timestamp": "2026-09-18T14:07:18.107Z",
     "_id": "bb761447-1cdc-4eaa-a5ec-51baf352aaad",
     "_createdAt": "2026-09-18T14:07:18.348Z"
+  },
+  {
+    "page": "/",
+    "referrer": "direct",
+    "ip": "154.159.252.10",
+    "country": "KE",
+    "city": "Nairobi",
+    "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+    "timestamp": "2026-09-18T14:12:58.889Z",
+    "_id": "2fa49e0d-3387-463e-b6a9-6368b9d58c6c",
+    "_createdAt": "2026-09-18T14:12:59.231Z"
   }
 ]
