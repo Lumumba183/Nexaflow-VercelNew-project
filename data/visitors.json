@@ -1263,5 +1263,16 @@
     "timestamp": "2026-09-19T13:36:40.754Z",
     "_id": "20ff39b2-001a-4e39-8bd1-d5ef9606d513",
     "_createdAt": "2026-09-19T13:36:40.930Z"
+  },
+  {
+    "page": "/",
+    "referrer": "direct",
+    "ip": "23.22.162.36",
+    "country": "US",
+    "city": "Ashburn",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.102 Safari/537.36",
+    "timestamp": "2026-09-19T14:54:12.523Z",
+    "_id": "71e5e785-78fd-4dbf-9efa-0602052f1c1f",
+    "_createdAt": "2026-09-19T14:54:12.726Z"
   }
 ]
