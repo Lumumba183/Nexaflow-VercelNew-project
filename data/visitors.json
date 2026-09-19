@@ -1296,5 +1296,16 @@
     "timestamp": "2026-09-19T15:25:17.928Z",
     "_id": "44d1ce9f-1656-4822-b8fa-f6d167f02e85",
     "_createdAt": "2026-09-19T15:25:18.036Z"
+  },
+  {
+    "page": "/products",
+    "referrer": "https://www.google.com/",
+    "ip": "217.199.148.228",
+    "country": "KE",
+    "city": "Nairobi",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "timestamp": "2026-09-19T15:25:22.625Z",
+    "_id": "0db1f983-7bc1-4233-9a3f-ca02888df313",
+    "_createdAt": "2026-09-19T15:25:22.800Z"
   }
 ]
