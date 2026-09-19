@@ -1208,5 +1208,16 @@
     "timestamp": "2026-09-19T04:27:06.560Z",
     "_id": "c70e073b-5a69-4574-8fbb-b8644c046870",
     "_createdAt": "2026-09-19T04:27:06.815Z"
+  },
+  {
+    "page": "/blog",
+    "referrer": "direct",
+    "ip": "217.199.148.228",
+    "country": "KE",
+    "city": "Nairobi",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "timestamp": "2026-09-19T04:30:03.092Z",
+    "_id": "eabaee45-3e64-441d-be42-81186ad25e51",
+    "_createdAt": "2026-09-19T04:30:03.266Z"
   }
 ]
